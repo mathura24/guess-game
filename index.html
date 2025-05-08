@@ -1,0 +1,99 @@
+<style>
+    body {
+        text-align: center;
+        padding: 200px;
+        background-image: url(./math\ game.gif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+    .header {
+        color: blueviolet;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+
+    .option {
+        color: rgb(5, 48, 28);
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+
+    .count {
+        color: rgb(135, 71, 238);
+        font-weight: bold;
+        font-size: 24px;
+
+
+    }
+    .content{
+        margin-top:300px;
+       
+    }
+</style>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Guess Number</title>
+</head>
+
+
+<body>
+   
+        <div class="header">
+            <h1>Guess The Number From 1 to 5</h1>
+        </div>
+
+
+        <div class="content">
+
+
+            <input type="text" placeholder="Enter Any Number" id="inputBox">
+
+
+            <button id="btn" onclick="checkthenumber()">Check</button>
+            <div class="option">
+                <p id="result">You are Right / Wrong</p>
+            </div>
+            <div class="count">
+                <p id="guesscount">Available Guesses:3</p>
+            </div>
+        </div>
+   
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+
+</html>
